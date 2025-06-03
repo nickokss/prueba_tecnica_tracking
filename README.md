@@ -52,3 +52,10 @@ EJEMPLO DE JSON:
 }
   
 ```
+
+Ejecutar con POSTMAN o curl:
+
+```
+curl -X POST http://localhost:8080/order/tracking/ \
+-F "file=@ruta_al_fichero/tracking.json;type=application/json"
+```
