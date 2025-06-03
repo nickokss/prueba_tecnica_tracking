@@ -1,3 +1,6 @@
+> [!IMPORTANT]
+> Usar Java 17 o superior
+
 Creación de una aplicación que exponga un API REST para almacenar estados de un pedido
 durante su transporte. El único endpoint será un POST al recurso “/order/tracking/” y podrá
 recibir ficheros con las actualizaciones de seguimiento de los pedidos en formato xml y/o
